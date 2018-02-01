@@ -143,3 +143,8 @@ text-align: center;
 padding-top: 3rem;
 padding-bottom: 4rem;
 }
+
+.zoom:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
