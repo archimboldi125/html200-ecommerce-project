@@ -7,6 +7,7 @@ body {
   background-image: url(../images/woman-2590353_1280.jpg);
   background-repeat:no-repeat;
   background-size:100%;
+  
      /* I am having some issues with the size and display of this img. The header overlaps and cuts it off. I am tring to use margins to fix the issue, but have not been able*/
 }
 
@@ -144,8 +145,17 @@ padding-top: 3rem;
 padding-bottom: 4rem;
 }
 
+
 .zoom:hover {
     -ms-transform: scale(1.1); /* IE 9 */
     -webkit-transform: scale(1.1); /* Safari 3-8 */
     transform: scale(1.1); 
+}
+
+.blink {
+  animation: blinker 5s linear infinite;
+}
+
+@keyframes blinker {  
+  50% { opacity: 0; }
 }
