@@ -1,3 +1,4 @@
+
 body { 
   font-size: 100%;
 }
@@ -6,9 +7,10 @@ body {
   font-size: 100%;
   background-image: url(../images/woman-2590353_1280.jpg);
   background-repeat:no-repeat;
-  background-size:100%;
-  
-     /* I am having some issues with the size and display of this img. The header overlaps and cuts it off. I am tring to use margins to fix the issue, but have not been able*/
+  height: 100%;
+  width: 100%;
+  background-size:cover;
+
 }
 
 .brandicon {
@@ -20,14 +22,16 @@ body {
   }
 
 .brand {
-  margin-bottom: 5%;}
+  margin-bottom: 5%;
+}
 
 .icon {
   margin-top: 1rem;
-  width: 5rem;}
+  width: 5rem;
+}
 
 
-.mainnav{
+.mainnav {
   padding-top: 2%;
   padding-bottom: 1%;
   font-family: 'Cabin Condensed', sans-serif;
@@ -43,7 +47,8 @@ body {
 }
 
 .white { 
-  color: white;}
+  color: white;
+}
 
 .mainnav  ul li {
   display: inline;
@@ -56,11 +61,13 @@ body {
 
 
 
-.mainnav a{text-decoration: none;
-text-align: center;
-padding-left: 1.5%;
-color:white;
-font-size: 1rem;}
+.mainnav a {
+  text-decoration: none;
+  text-align: center;
+  padding-left: 1.5%;
+  color:white;
+  font-size: 1rem;
+}
 
 
 
@@ -112,17 +119,18 @@ input[type="submit"] {
   display: inline-block;
 }
 
-.nameitem{
-margin-top: 1rem;
-margin-bottom: .5rem;
-color: darkcyan;
-}
 
 .imgcontainer {
   width: 100%;
-  max-height: 20rem;
-  
+ 
 }
+
+.nameitem {
+  margin-top: 1rem;
+  margin-bottom: .5rem;
+  color: darkcyan;
+}
+
 
 p {
   text-align: justify;
@@ -138,11 +146,11 @@ p {
 }
 
 .bottom {
-font-family: 'Old Standard TT', serif;
-color: darkcyan;
-text-align: center;
-padding-top: 3rem;
-padding-bottom: 4rem;
+  font-family: 'Old Standard TT', serif;
+  color: darkcyan;
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 4rem;
 }
 
 
