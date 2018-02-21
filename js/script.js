@@ -1,9 +1,8 @@
-
-
 function capture (){
 event.preventDefault()
 var theEmail = document.custEmail.email.value
-console.log("thanks for subscribing! " + theEmail)}
+console.log("thanks for subscribing, " + theEmail + "!")
+}
 
 
 
