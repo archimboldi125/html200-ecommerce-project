@@ -97,17 +97,6 @@ nav a:hover {
 
 
 
-/**************** ASIDE ****************/
-
-input[type="submit"] {
-  padding: .25rem;
-  background-color: #3D7FCF;
-  border: 1px solid #3D7FCF;
-  border-radius: 5px;
-  font-size: .75rem;
-  color: white;
-}
-
 /*********** PRODUCTS SECTION ***********/
 
 
@@ -167,3 +156,30 @@ p {
 @keyframes blinker {  
   50% { opacity: 0; }
 }
+
+/* Form styling */
+
+.formbackground{background-color: #C69332;
+  width: 100%;
+  height: 1.5rem;
+   
+}
+
+
+input[type=email]{
+  border:none;
+  background-color: white;
+  padding: .03rem;
+  display: auto mar
+}
+
+label {
+  font-family: 'Cabin Condensed', sans-serif; 
+  background-color: #C69332;
+  color: white;
+  letter-spacing: .4rem;
+  padding-left: .5rem;
+  font-size: .20rem;
+
+}
+

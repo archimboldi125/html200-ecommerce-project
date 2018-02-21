@@ -1,3 +1,14 @@
+
+
+function capture (){
+event.preventDefault()
+var theEmail = document.custEmail.email.value
+console.log("thanks for subscribing! " + theEmail)}
+
+
+
+
+
 // As an extra challenge, you can build the product listings
 // by looping over this array and creating HTML for each element.
 // This will be best accomplished after we do lesson 09.
