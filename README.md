@@ -69,4 +69,36 @@ Lesson 09:
 Each weekly assignment will be graded independently. There will not be a final grade for the entire project.
 
 ## Testing
-[update this section with information about the testing steps you took to ensure site quality]
+
+ ## Testing
+
+  ## website
+  The website is an ecommerce site where customers can buy items, and store retrievable information about their account and purchases. As of now, customers are only able to purchase items, and most of the functionalities are missing from the website. 
+
+  ## customers
+  
+  The main focus of the store is selling scarves, but the owners of the shop are planning on expanding to include other accessories such as bags, jewelry, and sunglasses in the near future.  
+
+ According to Mintel, the market for handbags and accessories including scarves is dominated by the Igeneration (also known as Z) and Millenials, both falling within the age range of 9 to 38 years. We would cater only to the oldest cohort of the Igeneration.
+  
+ There are many differences between these two generations with the Igeneration being more technologically savvy, racially diverse and visually driven. They can and have talked ONLY with images according to a Mintel report. However, when it comes to smartphone usage, 18 to 24 year, and 25 to 34 year olds are very similar. Google's "Gen Z: A Look Inside Its Mobile-First Mindset", reports that 87% of the surveyed in both cohorts prefer smartphone screens to other screens, and that this number is higher for them than the younger Igeneration users. Consoles are still popular for people in both cohorts, but slightly more for 18 to 24-year-old, and tablets are the least preferred screen. 
+
+Based on these observations, the website should be image-heavy, and be designed mostly for smartphones, followed by consoles. Tablets should not be the priority. For now, the website will be designed for the US, but if our items trend in social media due to Igenerations social media obsession, we might need to offer more support for users worldwide. The website will cater to all genders. Something to keep in mind is that "Men" spend more in fashion accessories than women, because they do not mind the prices as much and continue to earn more than women (this also comes from Mintel). 
+
+Testing
+
+Responsiveness 
+
+Smartphone-wise, according to statcounter the most popular screens resolution in the US are 360x640 at 11.51% followed by 1366x768 at 10.99%, 920x1080 at 10.4%, 375x667 at 9.04%,
+414x736 at 4.93%., and finally 768x1024 at 4.91% (seems to be a tablet). These again implies, that people use smart phones the most, followed by consoles, and tablets the least, and that smartphones tend to have a view port of less 500px wide.
+
+As of now, our website passes the < 500px width test, although some improvements could be made to the “products page” via using flex-wrap to keep the image as the focal point instead of just decreasing the size of the images.
+
+For widths > 500 and <900 more improvements could be made. Likewise, for screens 1400 and more. This is mostly for the index page. The products page is not doing as bad. The main issue with the index page is its main image not having been set as a background.
+
+Performance 
+
+Device  testing:
+
+
+
